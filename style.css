@@ -33,7 +33,7 @@ a:hover:after {
     display: flex;
     justify-content:space-around;
     margin: auto;
-    background-color: #D25565;
+    background-color: #000;
     padding-bottom: 5px;
 }
 
@@ -45,7 +45,7 @@ a {
 a:after {
     content: "";
     position: absolute;
-    background-color: #000;
+    background-color: #D25565;
     height: 3px;
     width: 0;
     left: 0;
@@ -54,8 +54,8 @@ a:after {
 }
 
 .nav li a {
-    background-color: #D25565;
-    color: #000;
+    background-color: #000;
+    color: #D25565;
     text-decoration: none;
     padding: 10px 15px;
     display: block;
