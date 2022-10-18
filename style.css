@@ -5,20 +5,25 @@
     box-sizing: border-box;
 }
 
+* {
+    font-family: 'Courier Prime';
+}
+
 #logo {
     display: flex;
+    /* flex-flow: column; */
     justify-content: center;
     align-items: center;
-    height: 10em;
+    height: 5em;
     /* background-color: #D25565; */
     background-color: #ecd6c7;
-    font-family: sans-serif;
-    letter-spacing: 0.5em;
-    font-size: 20px;
+    /* font-family: sans-serif; */
+    font-family: 'Courier Prime';
+    letter-spacing: 0.3em;
+    font-size: 40px;
     user-select: none;
     cursor: pointer;
-    
-    
+    color:#725f5a;   
 }
 
 #header {
@@ -36,13 +41,14 @@ a:hover:after {
     display: flex;
     justify-content:space-around;
     margin: auto;
-    background-color: #000;
-    padding-bottom: 5px;
+    background-color: #a39391;
+    padding-bottom: 3px;
 }
 
 a {
     position: relative;
     padding: 0 10px;
+    font-family: 'Courier Prime';font-size: 22px;
 }
 
 a:after {
@@ -57,7 +63,7 @@ a:after {
 }
 
 .nav li a {
-    background-color: #000;
+    background-color: #a39391;
     color: #ecd6c7;
     text-decoration: none;
     padding: 10px 15px;
