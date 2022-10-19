@@ -162,3 +162,17 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     font-size: 2em;
     color:#725f5a;   
 }
+
+.CV-content {
+    display: flex;
+    flex-flow: column;
+    padding: 1em;
+    justify-content: center;
+    color:#725f5a;
+}
+
+.CV-list {
+    display: flex;
+    flex-flow: column;
+    padding: 1em;
+}
