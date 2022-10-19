@@ -7,6 +7,13 @@
 
 * {
     font-family: 'Courier Prime';
+    padding: 0px;
+    margin: 0px;
+    /* background-color: #F0B775; */
+}
+
+ul, ol {
+    list-style: none;
 }
 
 #logo {
@@ -103,7 +110,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .serie-title {
-    padding: 2em;
+    padding: 1em;
     font-family: sans-serif;
     letter-spacing: 0.5em;
     font-size: 20px;
@@ -149,4 +156,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     width: 500px;
     height: 700px;
     padding: 2em;
+}
+
+.serie-title {
+    font-size: 2em;
+    color:#725f5a;   
 }
