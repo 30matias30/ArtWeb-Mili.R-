@@ -182,3 +182,21 @@ a:after {
     flex-flow: column;
     padding: 1em;
 }
+
+
+
+#media-card {
+    height: 20em;
+    width: 50vw;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-flow: column;
+}
+
+
+
+.ig {
+
+    position:static;
+}
+
